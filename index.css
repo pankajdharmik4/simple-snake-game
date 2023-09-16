@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  #gameCanvas {
+    background-color: #333;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #score {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2; /* Ensure the score is above the overlay */
+  }
+
+#game_name{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    z-index: 2; /* Ensure the score is above the overlay */
+}
+
+#score_restart{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+}
+
+#restartButton {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #restartButton:hover {
+    background-color: #45a049;
+  }
